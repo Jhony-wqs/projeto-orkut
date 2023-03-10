@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>projeto Orkut</title>
+</head>
+<body>
+    <header class="cabeca">
+    
+            <div class="texto"> <strong>Aviso</strong>: O Orkut.com não tem vinculo com o Google</div>
+        
+    </header>
+    <main>
+        
+        <picture class="imagem">
+            <source media="(max-width: 600px )" srcset="imagem\celular.png" type="image/png">       
+            <source media="(max-width: 762px)" srcset="imagem\tablet.png" type="image/png">
+            <source media="(max-width:1024px )" srcset="imagem\desktop.png" type="image/png">
+            <img src="imagem/Sem título.png" alt=""> 
+        </picture>
+        <div>
+            <form action="" method="post">
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="E-mail" id="email" required autocomplete="email"  size="15">
+                </div>
+                <div>
+                  <label for="senha">Senha</label>
+                  <input type="password" name="senha" id="senha" minlength="8" maxlength="10" autocomplete="current-password" required  size="15">
+            </div>
+            <div class="check">
+              <input type="checkbox" name="" id="">Salvar minhas informações <br> neste  computador.
+            </div>
+            <p class="p">Não use computador publico [?]</p>
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+            <a href="">
+                <a href="#">
+                    <h2>Não consegue acessar sua conta ?
+                </a></h2>
+            </a>
+        </form>
+       </div>
+    </main>
+    <div>
+        <section>
+            <p>Não e membro ?</p>
+            <a href="#">ENTRE JÁ</a>
+        </section>
+    </div>
+    
+</body>
+</html>
